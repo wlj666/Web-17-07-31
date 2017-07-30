@@ -1,0 +1,51 @@
+/*中间内容*/
+.mian { width: 1000px; height: 506px; margin: 0 auto; margin-top: 10px; background-image: url(../img/mian-back.png); }
+.mian-1 { width: 640px; height: 506px; display: inline-block; float: left; margin-top: 10px; }
+.mian-img1 { width: 340px; height: 230px; float: left; background-color: red; }
+.mian-zhong1 { outline: 1px solid silver; width: 307px; height: 189px; margin-top: 10px; margin-left: 10px; padding: 3px; text-align: center; display: inline-block; }
+.mian-zhong2 { width: 280px; height: 198px; margin-top: 10px; display: inline-block; }
+.ico1 { width: 280px; height: 65px; margin-top: 7px; background-image: url(../img/ico_bg1.gif); float: left; }
+.ico1 p { width: 200px; height: 50px; text-align: left; margin-left: 50px; margin-top: 10px; font-size: 13px; }
+.ico1:hover { background-position: 0 -65px; }
+.ico1:hover p { color: red; }
+.ico2 { width: 280px; height: 65px; background-image: url(../img/ico_bg2.gif); float: left; }
+.ico2 p { width: 200px; height: 50px; text-align: left; margin-left: 50px; margin-top: 10px; font-size: 13px; }
+.ico2:hover { background-position: 0 -65px; }
+.ico2:hover p { color: red; }
+.ico3 { width: 280px; height: 65px; background-image: url(../img/ico_bg3.gif); float: left; }
+.ico3 p { width: 200px; height: 50px; text-align: left; margin-left: 50px; margin-top: 10px; font-size: 13px; }
+.ico3:hover { background-position: 0 -65px; }
+.ico3:hover p { color: red; }
+.mian-zhong3 { width: 307px; height: 220px; margin-left: 10px; display: inline-block; }
+.mian-zhong3 p a { font-size: 15px; margin-left: 5px; color: black; }
+.mian-zhong3 p span { color: red; }
+.mian-zhong3 p a:hover { color: red; }
+.mian-zhong3 p { width: 300px; height: 30px; line-height: 34px; border-bottom: 1px dotted #b3b3b3; }
+#xwdt { margin-top: 10px; border-bottom: 1px hidden; }
+.mian-zhong4 { width: 307px; height: 220px; float: right; }
+.mian-zhong4 p { width: 300px; height: 30px; line-height: 34px; border-bottom: 1px dotted #b3b3b3; }
+.mian-zhong4 p a { font-size: 15px; margin-left: 5px; color: black; }
+.mian-zhong4 p span { color: red; }
+.mian-zhong4 p a:hover { color: red; }
+.mian-2 { width: 360px; height: 506px; float: left; margin-top: 10px; }
+
+/*四张图*/
+.zuoping { width: 1000px; height: 432px; margin: 0 auto; background-image: url(../img/zuoping-back.png); margin-top: 10px; }
+.zuoping img { float: left; }
+.zuoping-img { float: left; position: relative; }
+.zuoping-1 { width: 240px; height: 326px; margin-top: 20px; margin-left: 8px; float: left; background: url(../img/zuoping-1.gif); position: relative; }
+.zuoping-11 { width: 240px; height: 0px; background-color: black; position: absolute; bottom: 0; opacity: .6; overflow: hidden; transition: 1s; }
+.zuoping-11 p { color: white; }
+.zuoping-1:hover div { height: 100px; }
+.zuoping-2 { width: 240px; height: 326px; margin-top: 20px; margin-left: 8px; float: left; background: url(../img/zuoping-2.gif); position: relative; }
+.zuoping-22 { width: 240px; height: 0px; background-color: black; position: absolute; bottom: 0; opacity: 0; transition: 2s; }
+.zuoping-22 p { color: white; }
+.zuoping-2:hover div { height: 100px; opacity: .6; }
+.zuoping-3 { width: 240px; height: 326px; margin-top: 20px; margin-left: 8px; float: left; background: url(../img/zuoping-3.gif); position: relative; }
+.zuoping-33 { width: 240px; height: 0px; background-color: black; position: absolute; bottom: 0; opacity: 0; transition: 2s; }
+.zuoping-33 p { color: white; }
+.zuoping-3:hover div { height: 100px; opacity: .6; }
+.zuoping-4 { width: 240px; height: 326px; margin-top: 20px; margin-left: 8px; float: left; background: url(../img/zuoping-4.png); position: relative; }
+.zuoping-44 { width: 240px; height: 0px; background-color: black; position: absolute; bottom: 0; opacity: 0; transition: 2s; }
+.zuoping-44 p { color: white; }
+.zuoping-4:hover div { height: 100px; opacity: .6; }

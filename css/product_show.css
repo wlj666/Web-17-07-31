@@ -1,0 +1,106 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-26 16:28:55
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-30 14:01:26
+*/
+.mian{
+    width: 1000px;
+    height: 950px;
+    margin: 5px auto;
+}
+.mian-top{
+    width:100%;
+    height:60px;
+}
+.mian-top p{
+    line-height:60px;
+    font-size: 25px;
+    font-weight:bold;
+    text-align: center;
+}
+.mian-dh{
+    width:100%;
+    height:50px;
+    line-height:50px;
+}
+.mian-dh p{
+    display: inline-block;
+}
+.mian-dh span{
+    font-size:14px;
+    color: gray;
+}
+.mian-dh span a{
+    font-size:14px;
+    color: gray;
+}
+.mian-img{
+    width:530px;
+    height:85px;
+    margin: 20px auto;
+}
+.mian-img ul li{
+    width:84px;
+    height:71px;
+    float: left;
+    margin-left:10px;
+    background:url(../img/product_show.gif);
+}
+.mian-img img{
+    margin-top:12px;
+    margin-left:10px;
+    float: left;
+}
+#onli{
+    background:url(../img/product_show1.gif);
+}
+#mian-img-1{
+    width:78px;
+    height:58px;
+    margin-top: 3px;
+    margin-left:3px;
+    overflow: hidden;
+    position: relative;
+    background:url(../img/product_show4.jpg);
+    background-size:100% 100%;
+}
+#mian-img-1 div{
+    position:absolute;
+    width:35px;
+    height:15px;
+    font-size:14px;
+    text-align:center;
+    bottom: 0;
+    background:#000;
+    color:#fff;
+}
+#mian-img-2{
+    width:78px;
+    height:58px;
+    margin-top: 3px;
+    margin-left:3px;
+    overflow: hidden;
+    position: relative;
+    background:url(../img/product_show5.jpg);
+    background-size:100% 100%;
+}
+#mian-img-2 div{
+    position:absolute;
+    width:35px;
+    height:15px;
+    font-size:14px;
+    text-align:center;
+    bottom: 0;
+    background:#000;
+    color:#fff;
+}
+.mian-img ul li:hover{
+    background:url(../img/product_show1.gif);
+}
+#mian-img-lo{
+    width:600px;
+    height:600px;
+    margin: 20px auto;
+    background:url(../img/product_show4.jpg);
+}

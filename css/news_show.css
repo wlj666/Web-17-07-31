@@ -1,0 +1,240 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-23 12:12:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-26 22:46:42
+*/
+/*中间左部*/
+.mian{
+    width:1000px;
+    height:1000px;
+    background-color:white;
+    margin: 10px auto;
+
+}
+.mian-top{
+    width:990px;
+    height:40px;
+    float: right;
+    line-height:40px;
+}
+.mian-top p{
+    font-weight: bold;
+    display: inline-block;
+}
+.mian-top span{
+    font-size:13px;
+}
+.mian-left{
+    width:670px;
+    height:850px;
+    margin-left:10px;
+    display: inline-block;
+}
+.mian-left-2{
+    width:670px;
+    height:755px;
+}
+.mian-left-21{
+    width:100%;
+    height:35px;
+    background-color:red;
+}
+.mian-left-21 p{
+    line-height:35px;
+    text-align: center;
+    color:white;
+}
+.mian-left-22{
+    width:100%;
+    height:35px;
+    margin-top:10px;
+    font-size:15px;
+    color:gray;
+}
+.mian-left-22 p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mian-left-23{
+    width:660px;
+    height:411px;
+    margin:10px 0 0 5px;
+    background:url(../img/news_show-img.png);
+}
+.mian-left-24{
+    width:100%;
+    height:370px;
+    margin-top:10px;
+    overflow:hidden;
+}
+.mian-left-24 ul li p{
+    margin:10px 0 5px;
+    font-size:15px;
+    color:#424242;
+    overflow:hidden;
+}
+.mian-left-24 ul li span{
+    line-height:30px;
+    font-size:15px;
+    color:#424242;
+    overflow:hidden;
+}
+.mian-left-24 ul li span a{
+    line-height:30px;
+    font-size:14px;
+    color:#424242;
+    overflow:hidden;
+}
+.mian-left-24 ul li span a:hover{
+    color:red;
+}
+.mian-left-24 ul li span a img{
+    line-height:16px;
+}
+/*中间左部结束*/
+
+
+/*中间右部*/
+.mian-right{
+    width:300px;
+    height:850px;
+    float: right;
+}
+.mian-right-x{
+    width:291px;
+    height:33px;
+    background:url(../img/mian-right-1.gif);
+}
+.mian-right-x p{
+    line-height:33px;
+    margin-left:40px;
+    font-weight:900;
+    color:white;
+}
+.mian-right-xx ul li{
+    width:291px;
+    height:30px;
+    line-height:30px;
+}
+#mt{
+    margin-top:7px;
+}
+.mian-right-xx ul li span{
+    width:230px;
+    height:30px;
+    float: right;
+    margin-right: 30px;
+    display:-webkit-box;
+       -webkit-box-orient:vertical;
+       -webkit-line-clamp:1;
+       overflow:hidden;
+       text-overflow: ellipsis;
+    font-size:14px;
+}
+.mian-right-xx ul li p{
+    width:10px;
+    height:11px;
+    margin-left:5px;
+    background: url(../img/mian-xx.png);
+    color:#b3b3b3;
+    display: inline-block;
+}
+.mian-right-xx ul li:hover{
+    background-color:red;
+    color:white;
+}
+.mian-right-xx ul li:hover p{
+    background: url(../img/mian-xxx.png);
+}
+.mian-right-1{
+    width:291px;
+    height:33px;
+    margin-top:20px;
+    background:url(../img/mian-right-1.gif);
+}
+.mian-right-1 p{
+    line-height:33px;
+    margin-left:40px;
+    font-weight:900;
+    color:white;
+}
+.mian-right-2{
+    width:120px;
+    height:100px;
+    margin-left:20px;
+    margin-top:20px;
+    float: left;
+}
+.mian-right-21{
+    float: left;
+    width:120px;
+    height:83px;
+    background:url(../img/mian-right-img.png);
+    background-size:cover;
+    outline: 1px solid #b3b3b3;
+}
+.mian-right-2 p{
+    font-size:15px;
+    line-height:35px;
+    float: right;
+    display:-webkit-box;
+       -webkit-box-orient:vertical;
+       -webkit-line-clamp:1;
+       overflow:hidden;
+       text-overflow: ellipsis;
+}
+.mian-right-2:hover p{
+    color:red;
+}
+.mian-right-3{
+    width:291px;
+    height:33px;
+    background:url(../img/mian-right-1.gif);
+    margin-top:395px;
+}
+.mian-right-3 p{
+    line-height:33px;
+    margin-left:40px;
+    font-weight:900;
+    color:white;
+}
+.mian-right-4 ul li{
+    width:291px;
+    height:30px;
+    line-height:30px;
+}
+#mt{
+    margin-top:7px;
+}
+.mian-right-4 ul li span{
+    width:230px;
+    height:30px;
+    float: right;
+    margin-right: 30px;
+    display:-webkit-box;
+       -webkit-box-orient:vertical;
+       -webkit-line-clamp:1;
+       overflow:hidden;
+       text-overflow: ellipsis;
+    font-size:14px;
+}
+.mian-right-4 ul li p{
+    width:10px;
+    height:11px;
+    margin-left:5px;
+    background: url(../img/mian-xx.png);
+    color:#b3b3b3;
+    display: inline-block;
+}
+.mian-right-4 ul li:hover{
+    background-color:red;
+    color:white;
+}
+.mian-right-4 ul li:hover p{
+    background: url(../img/mian-xxx.png);
+}
+/*中间右部结束*/

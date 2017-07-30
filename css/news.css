@@ -1,0 +1,258 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-23 12:12:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-26 22:45:07
+*/
+
+/*中间内容*/
+.mian {
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+/*左边*/
+.mian-top {
+    width: 990px;
+    height: 40px;
+    float: right;
+    line-height: 40px;
+}
+.mian-top p {
+    font-weight: bold;
+    display: inline-block;
+}
+.mian-top span {
+    font-size: 13px;
+}
+.mian-left {
+    width: 670px;
+    height: 850px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.mian-left-2 {
+    width: 670px;
+    height: 755px;
+    margin-top: 25px;
+}
+.mian-left-2 div p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mian-left-2-1 {
+    width: 670px;
+    height: 85px;
+    border-bottom: 1px dotted #b3b3b3;
+    margin-top: 10px;
+}
+.mian-left-2-11 {
+    display: inline-block;
+}
+.mian-left-2-11 p {
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background-color: #c8c8c8;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 3px 3px 0 0;
+}
+.mian-left-2-11 span {
+    width: 70px;
+    height: 20px;
+    background-color: #b3b3b3;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    color: black;
+    border-radius: 0 0 3px 3px;
+}
+.mian-left-2-12 {
+    width: 590px;
+    height: 70px;
+    float: right;
+}
+#mian1 {
+    font-size: 16px;
+    font-weight: 900;
+}
+.mian-left-2-12 p {
+    margin-top: 2px;
+    font-size: 13px;
+}
+.mian-left-2-1:hover .mian-left-2-11 p {
+    background-color: red;
+    color: #fff;
+}
+.mian-left-2-1:hover .mian-left-2-11 span {
+    background-color: #B30000;
+    color: white;
+}
+
+/*右边*/
+.mian-right {
+    width: 300px;
+    height: 850px;
+    float: right;
+}
+.mian-right-1 {
+    width: 291px;
+    height: 33px;
+    background: url(../img/mian-right-1.gif);
+}
+.mian-right-1 p {
+    line-height: 33px;
+    margin-left: 40px;
+    font-weight: 900;
+    color: white;
+}
+.mian-right-2 {
+    width: 120px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.mian-right-21 {
+    float: left;
+    width: 120px;
+    height: 83px;
+    background: url(../img/mian-right-img.png);
+    background-size: cover;
+    outline: 1px solid #b3b3b3;
+}
+.mian-right-2 p {
+    font-size: 15px;
+    line-height: 35px;
+    float: right;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mian-right-2:hover p {
+    color: red;
+}
+.mian-right-3 {
+    width: 291px;
+    height: 33px;
+    background: url(../img/mian-right-1.gif);
+    margin-top: 395px;
+}
+.mian-right-3 p {
+    line-height: 33px;
+    margin-left: 40px;
+    font-weight: 900;
+    color: white;
+}
+.mian-right-4 ul li {
+    width: 291px;
+    height: 30px;
+    line-height: 30px;
+}
+#mt {
+    margin-top: 7px;
+}
+.mian-right-4 ul li span {
+    width: 230px;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:14px;
+}
+.mian-right-4 ul li p {
+    width: 10px;
+    height: 11px;
+    margin-left: 5px;
+    background: url(../img/mian-xx.png);
+    color: #b3b3b3;
+    display: inline-block;
+}
+.mian-right-4 ul li:hover {
+    background-color: red;
+    color: white;
+}
+.mian-right-4 ul li:hover p {
+    background: url(../img/mian-xxx.png);
+}
+
+/*下边*/
+.mian-bottom {
+    width: 1000px;
+    height: 110px;
+    position: relative;
+}
+.mian-bottom-left {
+    width: 330px;
+    height: 25px;
+    position: absolute;
+    top: 46px;
+    left: 11px;
+}
+.mian-bottom-left div {
+    float: left;
+    margin-left: 5px;
+}
+.mian-bottom-left-2:hover, .mian-bottom-left-3:hover {
+    background-color: red;
+}
+.mian-bottom-left-2:hover p {
+    color: white;
+}
+.mian-bottom-left-3:hover p {
+    color: white;
+}
+.mian-bottom-left div p {
+    color: #979797;
+}
+.mian-bottom-left-1 {
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 0;
+    outline: 1px solid #979797;
+}
+.mian-bottom-left-2 {
+    width: 20px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    outline: 1px solid #979797;
+}
+.mian-bottom-left-3 {
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 0;
+    outline: 1px solid #979797;
+}
+.mian-bottom-right {
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    background-color: #b3b3b3;
+    padding: 2px;
+    top: 40px;
+    right: 10px;
+}
+.mian-bottom-right a p {
+    color: white;
+}
